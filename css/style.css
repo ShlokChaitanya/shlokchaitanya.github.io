@@ -598,6 +598,8 @@ footer.footer .container .about-us .contact-info i{
 
 footer.footer .container .about-us .contact-info a{
     margin: 0px 7px;
+    font-family: var(--Lexend);
+    color: var(--text-light);
 }
 
 footer.footer .newsletter .form-element {
