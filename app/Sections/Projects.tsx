@@ -18,15 +18,15 @@ import image9 from '../assets/images/project-9.png';
 
 
 const ProjectsData = [
-    { name: 'Art Box', category: 'Web Design', image: image7.src },
-    { name: 'GDSC ', category: 'Web Design', image: image8.src },
-    { name: 'Ignite Vortex', category: 'Web Developement', image: image3.src },
-    { name: 'Kajal Courses', category: 'Web Design', image: image9.src },
-    { name: 'Meet Forever', category: 'Applications', image: image4.src },
-    { name: 'Revital', category: 'Web Development', image: image1.src, link: "https://revital.tech/" },
-    { name: 'RVD Buildtech Pvt Ltd', category: 'Web Development', image: image2.src, link: "https://rvdbuildtech.com/" },
-    { name: 'Spiritual Boat', category: 'Web Developement', image: image6.src },
-    { name: 'Utopia Blogs', category: 'Web Development', image: image5.src },
+    { name: 'Art Box', category: 'Web Design', image: image7 },
+    { name: 'GDSC ', category: 'Web Design', image: image8 },
+    { name: 'Ignite Vortex', category: 'Web Developement', image: image8 },
+    { name: 'Kajal Courses', category: 'Web Design', image: image9 },
+    { name: 'Meet Forever', category: 'Applications', image: image4 },
+    { name: 'Revital', category: 'Web Development', image: image1, link: "https://revital.tech/" },
+    { name: 'RVD Buildtech Pvt Ltd', category: 'Web Development', image: image2, link: "https://rvdbuildtech.com/" },
+    { name: 'Spiritual Boat', category: 'Web Developement', image: image6 },
+    { name: 'Utopia Blogs', category: 'Web Development', image: image5 },
 ];
 
 const Categories = [ 'All', 'Web design', 'Applications', 'Web development' ];
