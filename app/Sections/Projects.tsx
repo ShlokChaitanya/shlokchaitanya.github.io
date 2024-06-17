@@ -6,21 +6,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import image1 from '../assets/images/project-1.jpg';
-import image2 from '../assets/images/project-2.png';
-import image3 from '../assets/images/project-3.jpg';
-import image4 from '../assets/images/project-4.png';
-import image5 from '../assets/images/project-5.png';
-import image6 from '../assets/images/project-6.png';
-import image7 from '../assets/images/project-7.png';
-import image8 from '../assets/images/project-8.jpg';
-import image9 from '../assets/images/project-9.png';
+import image1 from '../Assets/images/project-1.jpg';
+import image2 from '../Assets/images/project-2.png';
+import image3 from '../Assets/images/project-3.jpg';
+import image4 from '../Assets/images/project-4.png';
+import image5 from '../Assets/images/project-5.png';
+import image6 from '../Assets/images/project-6.png';
+import image7 from '../Assets/images/project-7.png';
+import image8 from '../Assets/images/project-8.jpg';
+import image9 from '../Assets/images/project-9.png';
 
 
 const ProjectsData = [
     { name: 'Art Box', category: 'Web Design', image: image7 },
     { name: 'GDSC ', category: 'Web Design', image: image8 },
-    { name: 'Ignite Vortex', category: 'Web Developement', image: image8 },
+    { name: 'Ignite Vortex', category: 'Web Developement', image: image3 },
     { name: 'Kajal Courses', category: 'Web Design', image: image9 },
     { name: 'Meet Forever', category: 'Applications', image: image4 },
     { name: 'Revital', category: 'Web Development', image: image1, link: "https://revital.tech/" },
