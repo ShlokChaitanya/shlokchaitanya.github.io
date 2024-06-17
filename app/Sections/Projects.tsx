@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { faChevronDown, faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
 import image1 from '../Assets/images/project-1.jpg';
@@ -40,7 +40,7 @@ function Projects() {
         setct(category);
     }
     
-    function ProjectCard({ name, category, image } : { name: string, category: string, image: string }) {    
+    function ProjectCard({ name, category, image } : { name: string, category: string, image: StaticImageData }) {    
         const isVisible = ct === 'All' || ct.toLowerCase() === category.toLowerCase();
         return (
             <li className={`project-item ${isVisible ? "active" : ""}`}>
