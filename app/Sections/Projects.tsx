@@ -6,16 +6,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import image1 from '../assets/images/project-1.jpg';
+import image2 from '../assets/images/project-2.png';
+import image3 from '../assets/images/project-3.jpg';
+import image4 from '../assets/images/project-4.png';
+import image5 from '../assets/images/project-5.png';
+import image6 from '../assets/images/project-6.png';
+import image7 from '../assets/images/project-7.png';
+import image8 from '../assets/images/project-8.jpg';
+import image9 from '../assets/images/project-9.png';
+
+
 const ProjectsData = [
-    { name: 'Art Box', category: 'Web Design', image: require('../assets/images/project-7.png') },
-    { name: 'GDSC ', category: 'Web Design', image: require('../assets/images/project-8.jpg') },
-    { name: 'Ignite Vortex', category: 'Web Developement', image: require('../assets/images/project-3.jpg') },
-    { name: 'Kajal Courses', category: 'Web Design', image: require('../assets/images/project-9.png') },
-    { name: 'Meet Forever', category: 'Applications', image: require('../assets/images/project-4.png') },
-    { name: 'Revital', category: 'Web Development', image: require('../assets/images/project-1.jpg'), link: "https://revital.tech/" },
-    { name: 'RVD Buildtech Pvt Ltd', category: 'Web Development', image: require('../assets/images/project-2.png') },
-    { name: 'Spiritual Boat', category: 'Web Developement', image: require('../assets/images/project-6.png') },
-    { name: 'Utopia Blogs', category: 'Web Development', image: require('../assets/images/project-5.png') },
+    { name: 'Art Box', category: 'Web Design', image: image7.src },
+    { name: 'GDSC ', category: 'Web Design', image: image8.src },
+    { name: 'Ignite Vortex', category: 'Web Developement', image: image3.src },
+    { name: 'Kajal Courses', category: 'Web Design', image: image9.src },
+    { name: 'Meet Forever', category: 'Applications', image: image4.src },
+    { name: 'Revital', category: 'Web Development', image: image1.src, link: "https://revital.tech/" },
+    { name: 'RVD Buildtech Pvt Ltd', category: 'Web Development', image: image2.src, link: "https://rvdbuildtech.com/" },
+    { name: 'Spiritual Boat', category: 'Web Developement', image: image6.src },
+    { name: 'Utopia Blogs', category: 'Web Development', image: image5.src },
 ];
 
 const Categories = [ 'All', 'Web design', 'Applications', 'Web development' ];
