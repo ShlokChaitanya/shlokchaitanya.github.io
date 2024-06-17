@@ -1,8 +1,8 @@
 import React from 'react'
-import icon1 from '../assets/images/icon-web-design.svg'
-import icon2 from '../assets/images/icon-web-development.svg'
-import icon3 from '../assets/images/icon-mobile-apps.svg'
-import icon4 from '../assets/images/icon-quote.svg'
+import icon1 from '../Assets/images/icon-web-design.svg'
+import icon2 from '../Assets/images/icon-web-development.svg'
+import icon3 from '../Assets/images/icon-mobile-apps.svg'
+import icon4 from '../Assets/images/icon-quote.svg'
 import Image from 'next/image'
 
 const ServiceData = [

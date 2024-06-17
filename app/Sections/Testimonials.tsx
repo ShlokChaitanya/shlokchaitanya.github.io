@@ -1,8 +1,8 @@
 import React from 'react'
-import dp1 from '../assets/images/avatar-1.png'
-import dp2 from '../assets/images/avatar-2.png'
-import dp3 from '../assets/images/avatar-3.png'
-import dp4 from '../assets/images/avatar-4.png'
+import dp1 from '../Assets/images/avatar-1.png'
+import dp2 from '../Assets/images/avatar-2.png'
+import dp3 from '../Assets/images/avatar-3.png'
+import dp4 from '../Assets/images/avatar-4.png'
 import Image from 'next/image'
 
 const TestimonialsData = [
