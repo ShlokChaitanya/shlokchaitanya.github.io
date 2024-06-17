@@ -6,8 +6,8 @@ runs:
     - name: Setup Node.js ⚙️
       uses: actions/setup-node@v4
       with:
-        node-version: '14'
-        
+        node-version: '20'
+
     - name: Cache dependencies ⚡
       id: cache_dependencies
       uses: actions/cache@v3
